@@ -1,13 +1,16 @@
-# 动手学强化学习
+# Reinforcement Learning
 
-欢迎来到《动手学强化学习》（Hands-on Reinforcement Learning）的地带。该系列从强化学习的定义等基础讲起，一步步由浅入深，介绍目前一些主流的强化学习算法。每一章内容都是一个Jupyter Notebook，内含详细的图文介绍和代码讲解。
+**forked from** [Hands-on-RL](https://github.com/boyu-ai/Hands-on-RL);
 
-* 由于GitHub上渲染notebook效果有限，我们推荐读者前往[Hands-on RL主页](https://hrl.boyuai.com/)进行浏览，我们在此提供了纯代码版本的notebook，供大家下载运行。
+* and their homepage: [Hands-on RL主页](https://hrl.boyuai.com/);
 
-* 欢迎在[京东](https://item.jd.com/13129509.html)和[当当网](http://product.dangdang.com/29391150.html)购买《动手学强化学习》。
+* their book purchase link [京东](https://item.jd.com/13129509.html)和[当当网](http://product.dangdang.com/29391150.html);
 
-* 如果你发现了本书的任何问题，或者有任何改善建议的，欢迎填写[问卷](https://wj.qq.com/s2/8824793/9405/)反馈给我们！
+* their question chart [问卷](https://wj.qq.com/s2/8824793/9405/);
 
-* 本书配套的强化学习课程已上线到[伯禹学习平台](https://www.boyuai.com/elites/course/xVqhU42F5IDky94x)，所有人都可以免费学习和讨论。
+* their forum [伯禹学习平台](https://www.boyuai.com/elites/course/xVqhU42F5IDky94x);
 
-![](https://boyuai.oss-cn-shanghai.aliyuncs.com/disk/tmp/hrl-poster.jpeg)
+* their jupyter notebook codes are in my folder [tutorials](tutorials)
+
+* all copyrights reserved, and not in commercial use
+
