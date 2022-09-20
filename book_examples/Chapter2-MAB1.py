@@ -7,7 +7,7 @@ import matplotlib.pylab as plt
 
 
 # class to compose a Bernouli Bandit model, create bandit
-class BernouliBandit:
+class BernoulliBandit:
     # init function
     def __init__(self, K):
         # K numbers to stand the possibility for each trail(K times) 
@@ -119,16 +119,16 @@ def plot_results(solvers, solver_names):
     plt.legend()
     plt.show()
 
-
 np.random.seed(1)  # make random numbers be the same
 
 # set 10 arms for Bernouli Bandit
 K = 10
-bandit_10_arm = BernouliBandit(K)
+bandit_10_arm = BernoulliBandit(K)
 print("create %d arms Bernouli Bandit" % K)
 print("the max probility is No. %d, with %.4f" %
       (bandit_10_arm.best_id, bandit_10_arm.max_prob))
 
+np.random.seed(1)  # make random numbers be the same
 # create greedy solver instance
 epsilon_greedy_solver = EpsilonGreedy(bandit_10_arm, epsilon=0.01)
 epsilon_greedy_solver.run(5000)
