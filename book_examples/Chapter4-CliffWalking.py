@@ -3,6 +3,7 @@ import copy
 
 class CliffWalkingEnv:
     """悬崖漫步环境"""
+
     def __init__(self, col=12, row=4):
         self.col = col
         self.row = row
@@ -37,3 +38,15 @@ class CliffWalkingEnv:
                     p_mat[i * self.col + j][a] = [(1, next_state, reward, done)]
 
         return p_mat
+
+# accredit 授权
+# prestigious 有名望的
+# congenital = innate
+# contrition 悔罪
+# alienation 疏远，离间
+
+# supplant
+# succinct
+# recede
+# derelict
+# indigenous
